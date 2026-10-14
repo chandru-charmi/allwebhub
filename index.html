@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AllWebHub — discover useful websites in one place.">
+  <title>AllWebHub — Discover useful websites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="site-header sticky-top"><nav class="navbar navbar-expand-lg container py-3">
+  <a class="navbar-brand d-flex align-items-center gap-2" href="#top"><span class="brand-mark">A</span><span>AllWeb<span class="brand-accent">Hub</span></span></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navMenu"><div class="navbar-nav ms-auto align-items-lg-center gap-lg-3"><a class="nav-link" href="#categories">Categories</a><a class="nav-link" href="#directory">Explore websites</a><button id="themeToggle" class="btn btn-theme" type="button" aria-label="Toggle dark mode">☾ <span>Theme</span></button></div></div>
+</nav></header>
+<main id="top">
+<section class="hero-section"><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div><div class="container hero-content text-center">
+  <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR INTERNET, ORGANIZED</div>
+  <h1>Great websites.<br><span>One simple hub.</span></h1>
+  <p class="hero-subtitle">Discover useful tools, learn new skills, get work done, and find your next favorite website.</p>
+  <form id="heroSearchForm" class="hero-search mx-auto" role="search"><span class="search-symbol">⌕</span><input id="heroSearch" type="search" placeholder="Search websites, tools, or categories..." aria-label="Search websites"><button type="submit">Search <span>→</span></button></form>
+  <div class="popular-searches"><span>Popular:</span><button data-search="AI">AI tools</button><button data-search="jobs">Jobs</button><button data-search="design">Design</button><button data-search="learning">Learning</button></div>
+  <div class="hero-stats"><div><strong id="siteCount">16+</strong><span>Useful websites</span></div><i></i><div><strong id="categoryCount">10</strong><span>Categories</span></div><i></i><div><strong>Free</strong><span>To explore</span></div></div>
+</div></section>
+<section id="categories" class="section-block container"><div class="section-heading"><div><span class="section-kicker">BROWSE BY INTEREST</span><h2>Explore categories</h2><p>Find the right website for whatever you want to do.</p></div><a href="#directory" class="text-link">View all websites <span>→</span></a></div><div id="categoryGrid" class="category-grid"><div class="loading-state">Loading categories…</div></div></section>
+<section id="directory" class="section-block directory-section"><div class="container"><div class="section-heading"><div><span class="section-kicker">THE DIRECTORY</span><h2>Websites worth knowing</h2><p>Handy destinations for work, study, creativity, and everyday life.</p></div></div>
+  <div class="directory-controls"><div id="filterChips" class="filter-chips"><button class="filter-chip active" data-category="All">All websites</button></div><label class="sort-control">Sort by <select id="sortSelect" aria-label="Sort websites"><option value="featured">Featured</option><option value="name">Name A–Z</option><option value="category">Category</option></select></label></div>
+  <div id="resultSummary" class="result-summary" aria-live="polite"></div><div id="websiteGrid" class="website-grid"><div class="loading-state">Loading websites…</div></div><div id="emptyState" class="empty-state d-none"><div class="empty-icon">⌕</div><h3>No websites found</h3><p>Try another search term or choose a different category.</p><button id="clearSearch" class="btn btn-primary rounded-pill px-4">Clear filters</button></div>
+</div></section>
+<section class="bottom-cta container"><div class="cta-icon">✦</div><div><h2>Your next useful website is one search away.</h2><p>Explore the directory and make the web work for you.</p></div><a href="#top" class="cta-button">Back to top ↑</a></section>
+</main>
+<footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <span id="year"></span> AllWebHub</span><span>Useful corners of the internet, collected in one place.</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="js/app.js"></script>
+</body></html>
