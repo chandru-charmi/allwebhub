@@ -1,0 +1,12 @@
+[
+ {"name":"AI Tools","icon":"✦","description":"Create smarter with AI","color":"#eeeaff","textColor":"#7056d9"},
+ {"name":"Education","icon":"▤","description":"Learn something new","color":"#e1f5ed","textColor":"#218a65"},
+ {"name":"Developer Tools","icon":"⌘","description":"Build and ship projects","color":"#e4efff","textColor":"#3975d4"},
+ {"name":"Jobs & Careers","icon":"↗","description":"Find your next role","color":"#fff0dc","textColor":"#b87523"},
+ {"name":"Government","icon":"▥","description":"Public services online","color":"#ffe7e9","textColor":"#cf5362"},
+ {"name":"Design & Creativity","icon":"✎","description":"Bring ideas to life","color":"#ffe7f2","textColor":"#bf4f8d"},
+ {"name":"Productivity","icon":"✓","description":"Organize your day","color":"#e2f7fa","textColor":"#278c9d"},
+ {"name":"Finance","icon":"₹","description":"Money and markets","color":"#e5f5df","textColor":"#548b37"},
+ {"name":"Shopping","icon":"◇","description":"Browse and compare","color":"#fff0e5","textColor":"#bd713b"},
+ {"name":"Search Engines","icon":"⌕","description":"Find what you need","color":"#e8ecff","textColor":"#5667d7"}
+]
